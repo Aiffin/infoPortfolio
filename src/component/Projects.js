@@ -9,7 +9,7 @@ function Projects() {
                     <div className="display-4 text-center mt-5 mb-3">Projects</div>
                 </div>
             </div>
-            <div className="row g-3">
+            <div className="row g-3 mb-4">
                 <div className="col-12 col-md-4 col-lg-4">
                     <div className="card h-100 d-flex flex-column">
                         <div className="card-header text-center">

@@ -34,7 +34,7 @@ export default function Skills(props){
 
                 <br />
 
-                <div className="row g-3">
+                <div className="row g-3 mb-4">
                     <div className="col-12 col-md-6 col-lg-6">
                         <div class="card text-center">
                             <div class="card-header">
