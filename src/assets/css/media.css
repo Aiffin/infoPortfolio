@@ -1,0 +1,22 @@
+@media(max-width: 767px) {
+    .navbar-nav .nav-item .nav-link{
+        color: white;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .navbar-nav .nav-item .nav-link::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        position: absolute;
+        bottom:2px;
+        left:20%;
+        transform:translateX(-50%);
+        background: #fff;
+        transition: width 0.3s;
+    }
+    .navbar-nav .nav-item .nav-link:hover::after{
+        width: 0%;
+    }
+  }

@@ -1,0 +1,141 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+:root{
+    --primary:#1877f2
+}
+
+/* navbar header */
+.header{
+    background-color: var(--primary);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom:2px;
+    left:50%;
+    transform:translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+    width: 50%;
+}
+
+/* Landing Page */
+
+.landing{
+    position:relative;
+    background: url("../img/img1.jpg");
+     /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+    overflow: hidden;
+    opacity: 0.8;
+    
+}
+
+.text-box{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-weight:600;
+    line-height: 160px;
+    background-image: url("../img/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+
+
+/* Experience page */
+.timeline{
+    border-left:1px dashed var(--primary);
+    margin-left:20px;
+    margin-bottom: 30px;
+}
+
+.timeline .timeline-box{
+    padding-left: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-icon{
+    left:-18px;
+    top:0;
+    background-color:var(--primary);
+    position:absolute;
+    width:35px;
+    z-index: 1px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.timeline-icon i{
+    color:#fff;
+
+}
+
+#contact-form{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/* footer{
+    color:
+
+} */
+
+.about-img{
+    animation : up-down 2s ease-in-out infinite alternate-reverse both; 
+}
+
+@keyframes up-down {
+    0% {
+      transform: translateX(10px);
+    }
+  
+    100% {
+      transform: translateX(-10px);
+    }
+}
+
+/* .card:hover{
+   
+    box-shadow: 0.5rem 1rem var(--primary);
+} */
+
+/* skill css */
+
+/* .card .card-body {max-height:200px;} */
