@@ -10,6 +10,10 @@
     --primary:#1877f2
 }
 
+body{
+    background-color: #fff !important;
+}
+
 /* navbar header */
 .header{
     background-color: var(--primary);

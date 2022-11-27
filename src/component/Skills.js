@@ -10,7 +10,7 @@ export default function Skills(props){
                 </div></div>
                 <div className="row g-3">
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div class="card shadow text-center">
+                        <div class="card text-center">
                             <div class="card-header">
                                 Frontend
                             </div>
@@ -21,7 +21,7 @@ export default function Skills(props){
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div class="card shadow text-center">
+                        <div class="card text-center">
                             <div class="card-header">
                                 Backend
                             </div>
@@ -36,7 +36,7 @@ export default function Skills(props){
 
                 <div className="row g-3">
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div class="card shadow text-center">
+                        <div class="card text-center">
                             <div class="card-header">
                                 DataBase
                             </div>
@@ -47,7 +47,7 @@ export default function Skills(props){
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div class="card shadow text-center">
+                        <div class="card text-center">
                         <div class="card-header">
                                 Version Control
                             </div>
