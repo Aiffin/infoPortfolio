@@ -1,6 +1,6 @@
-@media(max-width: 767px) {
+@media only screen and (max-width: 767px) {
     body{
-        background-color: #fff;
+        background-color: #fff !important;
     }
     .navbar-nav .nav-item .nav-link{
         color: white;
